@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Foundation - landing page</title>
   <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/motion-ui.css">
   <link rel="stylesheet" href="css/app.css">
   <!-- icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
@@ -81,9 +82,59 @@
     </div>
   </section>
 
+  <!-- Slider -->
+  <section class="lp-slider">
+    <div class="orbit" role="region" data-orbit>
+      <ul class="orbit-container">
+        <li class="orbit-slide" id="slide_1">
+          <div class="row">
+            <div class="medium-8 columns">
+              <h1>Responsive</h1>
+              <p>Mobilne oraz desktop</p>
+              <a href="#" class="large button">Zobacz</a>
+            </div>
+            <div class="medium-4 columns show-for-medium">
+              <img src="img/slide_1.png" alt="Slajd 1" class="text-center">
+            </div>
+          </div>
+        </li>
+        <li class="orbit-slide" id="slide_2">
+          <div class="row">
+            <div class="medium-8 columns">
+              <h1>Foundation</h1>
+              <p>Mobilne oraz desktop</p>
+              <a href="#" class="large button">Zobacz</a>
+            </div>
+            <div class="medium-4 columns show-for-medium">
+              <img src="img/slide_1.png" alt="Slajd 2" class="text-center">
+            </div>
+          </div>
+        </li>
+        <li class="orbit-slide" id="slide_3">
+          <div class="row">
+            <div class="medium-8 columns">
+              <h1>Style SASS</h1>
+              <p>Mobilne oraz desktop</p>
+              <a href="#" class="large button">Zobacz</a>
+            </div>
+            <div class="medium-4 columns show-for-medium">
+              <img src="img/slide_1.png" alt="Slajd 3" class="text-center">
+            </div>
+          </div>
+        </li>
+      </ul>
+      <nav class="orbit-bullets">
+        <button class="is-active" data-slide="0"><span class="show-for-sr">Szczegóły slajdu</span></button>
+        <button data-slide="1"><span class="show-for-sr">Szczegóły slajdu</span></button>
+        <button data-slide="2"><span class="show-for-sr">Szczegóły slajdu</span></button>
+      </nav>
+    </div>
+  </section>
+
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
   <script src="js/vendor/foundation.js"></script>
+  <script src="js/vendor/motion-ui.js"></script>
   <script src="js/app.js"></script>
 </body>
 
